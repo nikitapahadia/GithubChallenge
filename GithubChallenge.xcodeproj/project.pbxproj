@@ -86,29 +86,15 @@
 		4FC071351D5A9DF900942F1C /* GHChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				4FC071361D5A9DF900942F1C /* AppDelegate.h */,
-				4FC071371D5A9DF900942F1C /* AppDelegate.m */,
+				4FC071631D5AA04C00942F1C /* AppDelegate */,
 				4FC071381D5A9DF900942F1C /* Assets.xcassets */,
-				4FC071391D5A9DF900942F1C /* LaunchScreen.storyboard */,
-				4FC0713B1D5A9DF900942F1C /* Main.storyboard */,
 				4FC0713D1D5A9DF900942F1C /* Info.plist */,
-				4FC0713E1D5A9DF900942F1C /* Issue.h */,
-				4FC0713F1D5A9DF900942F1C /* Issue.m */,
-				4FC071401D5A9DF900942F1C /* IssueParser.h */,
-				4FC071411D5A9DF900942F1C /* IssueParser.m */,
-				4FC071421D5A9DF900942F1C /* IssuesTableViewController.h */,
-				4FC071431D5A9DF900942F1C /* IssuesTableViewController.m */,
 				4FC071441D5A9DF900942F1C /* main.m */,
-				4FC071451D5A9DF900942F1C /* NetworkManager.h */,
-				4FC071461D5A9DF900942F1C /* NetworkManager.m */,
-				4FC071471D5A9DF900942F1C /* Owner.h */,
-				4FC071481D5A9DF900942F1C /* Owner.m */,
-				4FC071491D5A9DF900942F1C /* RepositoriesTableViewContainer.h */,
-				4FC0714A1D5A9DF900942F1C /* RepositoriesTableViewContainer.m */,
-				4FC0714B1D5A9DF900942F1C /* Repository.h */,
-				4FC0714C1D5A9DF900942F1C /* Repository.m */,
-				4FC0714D1D5A9DF900942F1C /* RepositoryParser.h */,
-				4FC0714E1D5A9DF900942F1C /* RepositoryParser.m */,
+				4FC071651D5AA07600942F1C /* Model */,
+				4FC071681D5AA0BB00942F1C /* Network */,
+				4FC071661D5AA08F00942F1C /* Parsers */,
+				4FC071641D5AA05E00942F1C /* StoryBoards */,
+				4FC071671D5AA0A600942F1C /* ViewControllers */,
 			);
 			path = GHChallenge;
 			sourceTree = "<group>";
@@ -122,11 +108,73 @@
 			path = GHChallengeTests;
 			sourceTree = "<group>";
 		};
+		4FC071631D5AA04C00942F1C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4FC071361D5A9DF900942F1C /* AppDelegate.h */,
+				4FC071371D5A9DF900942F1C /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4FC071641D5AA05E00942F1C /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				4FC071391D5A9DF900942F1C /* LaunchScreen.storyboard */,
+				4FC0713B1D5A9DF900942F1C /* Main.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		4FC071651D5AA07600942F1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4FC0713E1D5A9DF900942F1C /* Issue.h */,
+				4FC0713F1D5A9DF900942F1C /* Issue.m */,
+				4FC071471D5A9DF900942F1C /* Owner.h */,
+				4FC071481D5A9DF900942F1C /* Owner.m */,
+				4FC0714B1D5A9DF900942F1C /* Repository.h */,
+				4FC0714C1D5A9DF900942F1C /* Repository.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4FC071661D5AA08F00942F1C /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				4FC071401D5A9DF900942F1C /* IssueParser.h */,
+				4FC071411D5A9DF900942F1C /* IssueParser.m */,
+				4FC0714D1D5A9DF900942F1C /* RepositoryParser.h */,
+				4FC0714E1D5A9DF900942F1C /* RepositoryParser.m */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
+		4FC071671D5AA0A600942F1C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4FC071421D5A9DF900942F1C /* IssuesTableViewController.h */,
+				4FC071431D5A9DF900942F1C /* IssuesTableViewController.m */,
+				4FC071491D5A9DF900942F1C /* RepositoriesTableViewContainer.h */,
+				4FC0714A1D5A9DF900942F1C /* RepositoriesTableViewContainer.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4FC071681D5AA0BB00942F1C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4FC071451D5A9DF900942F1C /* NetworkManager.h */,
+				4FC071461D5A9DF900942F1C /* NetworkManager.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
 		DDED0BE41CAC501E00B82EE7 = {
 			isa = PBXGroup;
 			children = (
-				4FC0715D1D5A9E3900942F1C /* GHChallengeTests */,
 				4FC071351D5A9DF900942F1C /* GHChallenge */,
+				4FC0715D1D5A9E3900942F1C /* GHChallengeTests */,
 				DDED0BEE1CAC501E00B82EE7 /* Products */,
 			);
 			sourceTree = "<group>";
