@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface MatchChallengeTests : XCTestCase
+@interface GHChallengeTests : XCTestCase
 
 @end
 
-@implementation MatchChallengeTests
+@implementation GHChallengeTests
 
 - (void)setUp {
     [super setUp];
